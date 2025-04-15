@@ -4,55 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog - Kehidupan Alam Liar</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
     <header>
         <nav>
-            <nav>
-                <a href="index.html">Home |</a>
-                <a href="gallery.html">Gallery |</a>
-                <a href="blog.html">Blog |</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+            <div class="nav-container">
+                <div class="nav-links">
+                    <a href="index.html">Home |</a>
+                    <a href="gallery.html">Gallery |</a>
+                    <a href="blog.html">Blog |</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <button id="darkModeToggle">Dark Mode</button>
+            </div>
         </nav>
     </header>
 
     <main>
         <h1>Blog Tentang Kehidupan Alam Liar</h1>
-
-        <article>
-            <h2>Kehidupan Singa di Savana Afrika</h2>
-            <p>
-                Singa, dikenal sebagai raja hutan, adalah predator puncak di ekosistem savana Afrika. Mereka hidup dalam kelompok yang disebut pride, yang biasanya terdiri dari beberapa betina, anak-anak, dan satu atau dua jantan dewasa. Singa jantan bertugas melindungi wilayah, sementara singa betina bertanggung jawab untuk berburu.
-                <br><br>
-                <strong>Referensi:</strong> 
-                <a href="https://www.nationalgeographic.com/animals/mammals/facts/lion" target="_blank">National Geographic - Lion</a>
-            </p>
-        </article>
-
-        <article>
-            <h2>Migrasi Gajah di Asia dan Afrika</h2>
-            <p>
-                Gajah adalah mamalia darat terbesar di dunia. Mereka dikenal karena kecerdasan dan ingatan mereka yang kuat. Migrasi gajah adalah fenomena alam yang menakjubkan, di mana mereka berpindah untuk mencari makanan dan air. Migrasi ini juga membantu menyebarkan benih dan menjaga keseimbangan ekosistem.
-                <br><br>
-                <strong>Referensi:</strong> 
-                <a href="https://www.worldwildlife.org/species/elephant" target="_blank">World Wildlife Fund - Elephant</a>
-            </p>
-        </article>
-
-        <article>
-            <h2>Keunikan Penguin di Antartika</h2>
-            <p>
-                Penguin adalah burung yang tidak bisa terbang dan hidup di belahan bumi selatan, terutama di Antartika. Mereka beradaptasi dengan lingkungan yang ekstrem dan dikenal karena kesetiaan mereka pada pasangan. Penguin kaisar, misalnya, melakukan perjalanan hingga 100 km untuk mencari makanan dan kembali ke koloni mereka.
-                <br><br>
-                <strong>Referensi:</strong> 
-                <a href="https://www.nationalgeographic.com/animals/birds/facts/emperor-penguin" target="_blank">National Geographic - Emperor Penguin</a>
-            </p>
-        </article>
+        
+        <button id="loadBlogs" class="load-btn">Muat Artikel</button>
+        <div id="blogContainer">
+        </div>
     </main>
-
     <footer>
-        <p>&copy; 2023 Kehidupan Alam Liar. Semua hak dilindungi.</p>
     </footer>
+   
+    <script src="script.js"></script>
 </body>
 </html>

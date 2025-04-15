@@ -1,0 +1,19 @@
+{
+    "articles": [
+        {
+            "title": "Kehidupan Singa di Savana Afrika",
+            "content": "Singa, dikenal sebagai raja hutan, adalah predator puncak di ekosistem savana Afrika. Mereka hidup dalam kelompok yang disebut pride, yang biasanya terdiri dari beberapa betina, anak-anak, dan satu atau dua jantan dewasa. Singa jantan bertugas melindungi wilayah, sementara singa betina bertanggung jawab untuk berburu.",
+            "reference": "https://www.nationalgeographic.com/animals/mammals/facts/lion"
+        },
+        {
+            "title": "Migrasi Gajah di Asia dan Afrika",
+            "content": "Gajah adalah mamalia darat terbesar di dunia. Mereka dikenal karena kecerdasan dan ingatan mereka yang kuat. Migrasi gajah adalah fenomena alam yang menakjubkan, di mana mereka berpindah untuk mencari makanan dan air. Migrasi ini juga membantu menyebarkan benih dan menjaga keseimbangan ekosistem.",
+            "reference": "https://www.worldwildlife.org/species/elephant"
+        },
+        {
+            "title": "Keunikan Penguin di Antartika",
+            "content": "Penguin adalah burung yang tidak bisa terbang dan hidup di belahan bumi selatan, terutama di Antartika. Mereka beradaptasi dengan lingkungan yang ekstrem dan dikenal karena kesetiaan mereka pada pasangan. Penguin kaisar, misalnya, melakukan perjalanan hingga 100 km untuk mencari makanan dan kembali ke koloni mereka.",
+            "reference": "https://www.nationalgeographic.com/animals/birds/facts/emperor-penguin"
+        }
+    ]
+}
